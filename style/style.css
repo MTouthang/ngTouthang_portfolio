@@ -39,10 +39,33 @@ header {
     text-underline-offset: 8px;
 }
 
+
 a {
     text-decoration: none;
     color: #222831;
     font-family: Source Sans Pro;
+}
+
+
+/* logo name typewriting effect */
+.logo  a {
+    width: 1px;
+    overflow: hidden;
+    
+    border-right: .15em solid #393E46;
+    white-space: nowrap;
+    
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(22),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+  }
+
+@keyframes blink-caret {
+    from, to {border-color: transparent} 50% {border-color: #393E46;}
 }
 
 /****** intro part *******/
