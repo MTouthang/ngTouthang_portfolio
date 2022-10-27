@@ -67,10 +67,14 @@ strong {
 
 
 .proj{
+    width: 380px;
     margin: 10px 5px;
 }
 .portfolio {
     flex-wrap: wrap;
+}
+.portfolio_img {
+    width: 380px;
 }
 
 /** about me section **/
@@ -81,7 +85,8 @@ strong {
 }
 .about_me > img{
     position: relative;
-    left: 15%;
+    margin: auto;
+    left: 5%;
 }
 .about_description {
     width: 90%;
