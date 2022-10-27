@@ -129,8 +129,8 @@ strong {
 
 .portfolio {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-around;
     width: 90%;
     margin: 1% auto;
 }
@@ -141,7 +141,7 @@ strong {
     height: 300px;
     flex-direction: column;
     justify-content: center;
-   
+    margin: 10px 5px;
     border: none;
     box-shadow: 1px 1px 5px 0px 
    
@@ -153,7 +153,6 @@ strong {
 .portfolio_img {
     width: 278px;
     height: 200px;
-   
     border: none;
     box-shadow: 0px 0px 2px 1px;
     margin-bottom: 9px;

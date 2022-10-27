@@ -23,6 +23,7 @@
     padding: 5px 2px;
 }
 
+
  
 /* hero-section */
 strong {
@@ -62,4 +63,31 @@ strong {
     display: flex;
     height: auto;
     flex-direction: column;
+}
+
+
+.proj{
+    margin: 10px 5px;
+}
+.portfolio {
+    flex-wrap: wrap;
+}
+
+/** about me section **/
+.about_me {
+    flex-direction: column;
+    margin: 5% 10%;
+    align-items: flex-start;
+}
+.about_me > img{
+    position: relative;
+    left: 15%;
+}
+.about_description {
+    width: 90%;
+}
+
+/** footer **/
+.footer_link {
+    width: auto;
 }
