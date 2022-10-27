@@ -1,0 +1,65 @@
+
+/* header */
+
+.nav_list {
+    display: none;
+}
+
+.toggle > i {
+    display: block;
+    cursor: pointer;
+}
+
+.toggle:focus .nav_list {
+    display: block;
+    position:absolute;
+    z-index: 2;
+    height: 20vh;
+    padding: 10px 3px;
+    background-color: #fff;
+}
+
+.nav_items {
+    padding: 5px 2px;
+}
+
+ 
+/* hero-section */
+strong {
+    font-weight: 550;
+}
+.intro {
+  
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    margin: 5% 10%;
+    text-align: center;
+}
+
+.intro_img {
+    width: 250px;
+    position: static;
+}
+
+.intro_title {
+    position: static;
+}
+.intro_subtitle {
+    position: static;
+    width: 100%;
+    text-align: left;
+    padding: 5px 0;
+    margin-right: 30px;
+}
+/* .intro_description {
+    border: 1px solid;
+} */
+
+
+/* project section */
+.my_work {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+}

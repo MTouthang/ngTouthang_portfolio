@@ -18,12 +18,17 @@ header {
     padding: 10px 0px;
    
 }
-
+.toggle > i {
+    display: none;
+}
 .nav_list {
     display: flex;
     
+    
 }
+
 .nav_items{
+   
     list-style-type: none;
     padding: 0 10px;
 }
@@ -51,22 +56,11 @@ a {
 .logo  a {
     width: 1px;
     overflow: hidden;
-    
-    border-right: .15em solid #393E46;
     white-space: nowrap;
-    
     letter-spacing: .15em;
-    animation: typing 3.5s steps(22),
-    blink-caret .75s step-end infinite;
 }
 
-@keyframes typing {
-    from { width: 0 }
-  }
 
-@keyframes blink-caret {
-    from, to {border-color: transparent} 50% {border-color: #393E46;}
-}
 
 /****** intro part *******/
 strong {
@@ -121,7 +115,7 @@ strong {
 /********* Projects ***********/
 .my_work {
     background-color: #00ADB5;
-    height: 60vh;
+   
     text-align: center;
     padding: 2% 0;
     font-family: "Source Sans Pro";
