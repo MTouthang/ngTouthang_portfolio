@@ -86,7 +86,7 @@
 .about_me > img{
     position: relative;
     margin: auto;
-    left: 5%;
+    left: 4px
 }
 .about_description {
     width: 90%;
