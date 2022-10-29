@@ -1,3 +1,6 @@
-document.querySelector(".nav_items").addEventListener("click", function () {
-  alert("hello");
+const toggleButton = document.getElementsByClassName("toggle-button")[0];
+const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+
+toggleButton.addEventListener("click", () => {
+  navbarLinks.classList.toggle("active");
 });

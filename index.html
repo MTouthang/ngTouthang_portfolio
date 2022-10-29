@@ -12,52 +12,30 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
     <link rel="stylesheet" href="./style/reponsive.css" />
-    <script>
-      $(".nav_proj").click(function () {
-        $("html,body").animate(
-          {
-            scrollTop: $("#work").offset().top,
-          },
-          "slow"
-        );
-      });
-    </script>
+    <script src="./script/script.js" defer></script>
   </head>
   <body>
     <!-- header  -->
-    <header>
-      <!-- header log -->
-      <div class="logo">
-        <a href="https://github.com/MTouthang" target="_blank"
-          ><i class="fa-solid fa-terminal"></i>mTouthang</a
+    <nav class="navbar">
+      <div class="brand-title">
+        <a href="https://github.com/MTouthang">
+          <i class="fa-solid fa-terminal"></i>mTouthang</a
         >
+        <p class="git-link">https://github.com/MTouthang</p>
       </div>
-
-      <!-- nav menu -->
-      <nav class="nav">
-        <div class="toggle" tabindex="1">
-          <i class="fa-solid fa-bars"></i>
-          <ul class="nav_list">
-            <li class="nav_items">
-              <a
-                href="#work"
-                target="_parent"
-                name="work"
-                class="nav_link nav_proj"
-              >
-                Projects
-              </a>
-            </li>
-            <li class="nav_items">
-              <a href="#about" class="nav_link">About me</a>
-            </li>
-            <li class="nav_items">
-              <a href="#contact_me" class="nav_link">Contact me</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#work">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact_me">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- Introduction -->
     <section class="intro" id="home" name="home">
