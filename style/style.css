@@ -107,6 +107,7 @@ a:hover {
   
 
 
+
 /****** intro part *******/
 strong {
     font-weight:900;
@@ -280,6 +281,9 @@ span{
 
 .about_description > p {
     padding: 10px 0;
+}
+.about_description > p {
+    text-align: justify;
 }
 
 /************ footer ************/
